@@ -154,7 +154,7 @@ Aj.prototype.action = function(events) {
 
 Aj.prototype.setByMap = function(map) {
   Object.keys(map).forEach(function(event){
-    this.set(event, map[event]);
+    this.set(map[event], event);
   }, this);
   return this;
 };
