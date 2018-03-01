@@ -1,7 +1,7 @@
 {
   "name": "ac-aj",
   "description": "Run actions.",
-  "version": "0.0.0-alpha",
+  "version": "0.0.0-alpha.0",
   "author": "Oliver Leics <oliver.leics@gmail.com>",
   "license": "MIT",
   "repository": "oleics/node-ac-aj",
@@ -9,8 +9,7 @@
     "node": "*"
   },
   "main": "./aj.js",
-  "bin": {
-  },
+  "bin": {},
   "dependencies": {
     "eventemitter2": "^5.0.1",
     "inherits": "^2.0.3"
